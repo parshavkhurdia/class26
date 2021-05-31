@@ -1,0 +1,128 @@
+Dell@Dell-PC MINGW64 ~
+$ pwd
+/c/Users/Dell
+
+Dell@Dell-PC MINGW64 ~
+$ cd e:
+
+Dell@Dell-PC MINGW64 /e
+$ ls
+
+'#0eScanProtected.docx'             'After Earth (2013) 720p Blu-Ray x264 [Dual-Audio] [English + Hindi DD 5.1] - Mafiaking.mkv'   SysMTS.db                     chess/
+'#1eScanProtected.docx'             'CompuOffice Online'/                                                                         'System Volume Information'/   dep-cal-2018-19.zip
+'$RECYCLE.BIN'/                     'Local Disk (D) - Shortcut.lnk'*                                                              'WHITEHATJR PROJECT'/          software/
+ 6de344b9ee42de906ced1b9b4562/      'New Microsoft Office Word Document.docx'                                                      Zarya/                        whitehatjr/
+'Abhinandan Tax Audit FY 2019-20'/  'Shahi Spices Tax Audit FY2019-20'/                                                            bootsqm.dat
+
+Dell@Dell-PC MINGW64 /e
+$
+
+Dell@Dell-PC MINGW64 /e
+$ cd whitehatjr
+
+Dell@Dell-PC MINGW64 /e/whitehatjr
+$ ls
+CLASS21/  class20/  class22/  class23/  class24/  class25/
+
+Dell@Dell-PC MINGW64 /e/whitehatjr
+$ mkdir class26
+
+Dell@Dell-PC MINGW64 /e/whitehatjr
+$ cd class26
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26
+$ ls
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26
+$ git init
+Initialized empty Git repository in E:/whitehatjr/class26/.git/
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26 (master)
+$ git clone https://github.com/whitehatjr/angryBirdsStage2.git
+Cloning into 'angryBirdsStage2'...
+remote: Enumerating objects: 38, done.
+Receiving obremote: Total 38 (delta 0), reused 0 (delta 0), pack-reused 38
+Receiving objects: 100% (38/38), 2.54 MiB | 3.71 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26 (master)
+$ ls
+angryBirdsStage2/
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        angryBirdsStage2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26 (master)
+$ cd angryBirdsStage2
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   sketch.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git add sketch.js
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git add README.md
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git config --global user.email "khurdia.parshav@gmail.com"
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$  git config --global user.name "parshavkhurdia"
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git commit -m "added by parshav"
+[master bfd5433] added by parshav
+ 2 files changed, 29 insertions(+), 3 deletions(-)
+ rewrite README.md (100%)
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git remote add class26 https://github.com/parshavkhurdia/class26.git
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$ git push -u https://github.com/parshavkhurdia/class26.git
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/parshavkhurdia/class26.git/'
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$  git push -u https://github.com/parshavkhurdia/class26.git
+
+Enumerating objects: 42, done.
+Counting objects: 100% (42/42), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (42/42), 2.54 MiB | 642.00 KiB/s, done.
+Total 42 (delta 12), reused 36 (delta 10), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/parshavkhurdia/class26.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/parshavkhurdia/class26.git'.
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$
+
+Dell@Dell-PC MINGW64 /e/whitehatjr/class26/angryBirdsStage2 (master)
+$
